@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jlywxy/project/ltdc/simulation/qsim
+vltdc
+Z1 !s110 1657592990
+!i10b 1
+!s100 P2XP4jGk>V0=goh463SRB1
+I;=QcN^]5^=`6AUj8`Y_i12
+R0
+w1657592989
+8ltdc.vo
+Fltdc.vo
+!i122 2
+L0 32 3053
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z4 !s108 1657592990.000000
+!s107 ltdc.vo|
+!s90 -work|work|ltdc.vo|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vltdc_vlg_vec_tst
+R1
+!i10b 1
+!s100 eCh]U:ZCF:8S;G1Z7m>h83
+IU9kONTkl:9XIciT2]lSOE0
+R0
+w1657592988
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 3
+L0 30 38
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 0
+R5
+R6

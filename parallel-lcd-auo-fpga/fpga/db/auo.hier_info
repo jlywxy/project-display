@@ -1,0 +1,16 @@
+|auo
+clk_in => pclk~reg0.CLK
+clk_in => clk.CLK
+rgb8[0] <= rgb8[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgb8[1] <= rgb8[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgb8[2] <= rgb8[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgb8[3] <= rgb8[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgb8[4] <= rgb8[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgb8[5] <= rgb8[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgb8[6] <= rgb8[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgb8[7] <= rgb8[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+hsync <= hsync~reg0.DB_MAX_OUTPUT_PORT_TYPE
+vsync <= vsync~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pclk <= pclk~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

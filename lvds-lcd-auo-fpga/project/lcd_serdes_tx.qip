@@ -1,0 +1,10 @@
+set_global_assignment -name IP_TOOL_NAME "ALTLVDS_TX"
+set_global_assignment -name IP_TOOL_VERSION "21.1"
+set_global_assignment -name IP_GENERATED_DEVICE_FAMILY "{Cyclone IV E}"
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "lcd_serdes_tx.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "lcd_serdes_tx.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "lcd_serdes_tx_inst.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "lcd_serdes_tx_bb.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "lcd_serdes_tx.inc"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "lcd_serdes_tx.cmp"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "lcd_serdes_tx.ppf"]

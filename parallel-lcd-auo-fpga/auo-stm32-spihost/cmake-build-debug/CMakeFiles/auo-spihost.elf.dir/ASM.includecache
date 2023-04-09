@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Core/Startup/startup_stm32f030k6tx.s
+

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "sharp_dsi-altium-import")(type "KiCad")(uri "${KIPRJMOD}/sharp_dsi-altium-import.kicad_sym")(options "")(descr ""))
+)

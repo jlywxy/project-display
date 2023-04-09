@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jlywxy/project/lcd/projects/mipi-lcd-sharp-ssd2828/ssd_stm_spihost/spihost/Core/Startup/startup_stm32f030f4px.s
+

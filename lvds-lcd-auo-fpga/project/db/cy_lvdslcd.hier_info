@@ -1,0 +1,761 @@
+|cy_lvdslcd
+clk_in => clk_in.IN1
+led <= led.DB_MAX_OUTPUT_PORT_TYPE
+txdata[0] <= lcd_serdes_tx:tx_auo.tx_out
+txdata[1] <= lcd_serdes_tx:tx_auo.tx_out
+txdata[2] <= lcd_serdes_tx:tx_auo.tx_out
+txdata[3] <= lcd_serdes_tx:tx_auo.tx_out
+txclk <= lcd_serdes_tx:tx_auo.tx_outclock
+
+
+|cy_lvdslcd|lcdpll:lcdpll_inst
+areset => areset.IN1
+inclk0 => sub_wire4[0].IN1
+c0 <= altpll:altpll_component.clk
+locked <= altpll:altpll_component.locked
+
+
+|cy_lvdslcd|lcdpll:lcdpll_inst|altpll:altpll_component
+inclk[0] => lcdpll_altpll:auto_generated.inclk[0]
+inclk[1] => lcdpll_altpll:auto_generated.inclk[1]
+fbin => ~NO_FANOUT~
+pllena => ~NO_FANOUT~
+clkswitch => ~NO_FANOUT~
+areset => lcdpll_altpll:auto_generated.areset
+pfdena => ~NO_FANOUT~
+clkena[0] => ~NO_FANOUT~
+clkena[1] => ~NO_FANOUT~
+clkena[2] => ~NO_FANOUT~
+clkena[3] => ~NO_FANOUT~
+clkena[4] => ~NO_FANOUT~
+clkena[5] => ~NO_FANOUT~
+extclkena[0] => ~NO_FANOUT~
+extclkena[1] => ~NO_FANOUT~
+extclkena[2] => ~NO_FANOUT~
+extclkena[3] => ~NO_FANOUT~
+scanclk => ~NO_FANOUT~
+scanclkena => ~NO_FANOUT~
+scanaclr => ~NO_FANOUT~
+scanread => ~NO_FANOUT~
+scanwrite => ~NO_FANOUT~
+scandata => ~NO_FANOUT~
+phasecounterselect[0] => ~NO_FANOUT~
+phasecounterselect[1] => ~NO_FANOUT~
+phasecounterselect[2] => ~NO_FANOUT~
+phasecounterselect[3] => ~NO_FANOUT~
+phaseupdown => ~NO_FANOUT~
+phasestep => ~NO_FANOUT~
+configupdate => ~NO_FANOUT~
+fbmimicbidir <> <GND>
+clk[0] <= clk[0].DB_MAX_OUTPUT_PORT_TYPE
+clk[1] <= clk[1].DB_MAX_OUTPUT_PORT_TYPE
+clk[2] <= clk[2].DB_MAX_OUTPUT_PORT_TYPE
+clk[3] <= clk[3].DB_MAX_OUTPUT_PORT_TYPE
+clk[4] <= clk[4].DB_MAX_OUTPUT_PORT_TYPE
+extclk[0] <= <GND>
+extclk[1] <= <GND>
+extclk[2] <= <GND>
+extclk[3] <= <GND>
+clkbad[0] <= <GND>
+clkbad[1] <= <GND>
+enable1 <= <GND>
+enable0 <= <GND>
+activeclock <= <GND>
+clkloss <= <GND>
+locked <= lcdpll_altpll:auto_generated.locked
+scandataout <= <GND>
+scandone <= <GND>
+sclkout0 <= <GND>
+sclkout1 <= <GND>
+phasedone <= <GND>
+vcooverrange <= <GND>
+vcounderrange <= <GND>
+fbout <= <GND>
+fref <= <GND>
+icdrclk <= <GND>
+
+
+|cy_lvdslcd|lcdpll:lcdpll_inst|altpll:altpll_component|lcdpll_altpll:auto_generated
+areset => pll_lock_sync.ACLR
+areset => pll1.ARESET
+clk[0] <= pll1.CLK
+clk[1] <= pll1.CLK1
+clk[2] <= pll1.CLK2
+clk[3] <= pll1.CLK3
+clk[4] <= pll1.CLK4
+inclk[0] => pll1.CLK
+inclk[1] => pll1.CLK1
+locked <= locked.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo
+tx_in[0] => tx_in[0].IN1
+tx_in[1] => tx_in[1].IN1
+tx_in[2] => tx_in[2].IN1
+tx_in[3] => tx_in[3].IN1
+tx_in[4] => tx_in[4].IN1
+tx_in[5] => tx_in[5].IN1
+tx_in[6] => tx_in[6].IN1
+tx_in[7] => tx_in[7].IN1
+tx_in[8] => tx_in[8].IN1
+tx_in[9] => tx_in[9].IN1
+tx_in[10] => tx_in[10].IN1
+tx_in[11] => tx_in[11].IN1
+tx_in[12] => tx_in[12].IN1
+tx_in[13] => tx_in[13].IN1
+tx_in[14] => tx_in[14].IN1
+tx_in[15] => tx_in[15].IN1
+tx_in[16] => tx_in[16].IN1
+tx_in[17] => tx_in[17].IN1
+tx_in[18] => tx_in[18].IN1
+tx_in[19] => tx_in[19].IN1
+tx_in[20] => tx_in[20].IN1
+tx_in[21] => tx_in[21].IN1
+tx_in[22] => tx_in[22].IN1
+tx_in[23] => tx_in[23].IN1
+tx_in[24] => tx_in[24].IN1
+tx_in[25] => tx_in[25].IN1
+tx_in[26] => tx_in[26].IN1
+tx_in[27] => tx_in[27].IN1
+tx_inclock => tx_inclock.IN1
+tx_locked <= altlvds_tx:ALTLVDS_TX_component.tx_locked
+tx_out[0] <= altlvds_tx:ALTLVDS_TX_component.tx_out
+tx_out[1] <= altlvds_tx:ALTLVDS_TX_component.tx_out
+tx_out[2] <= altlvds_tx:ALTLVDS_TX_component.tx_out
+tx_out[3] <= altlvds_tx:ALTLVDS_TX_component.tx_out
+tx_outclock <= altlvds_tx:ALTLVDS_TX_component.tx_outclock
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component
+tx_in[0] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[0]
+tx_in[1] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[1]
+tx_in[2] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[2]
+tx_in[3] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[3]
+tx_in[4] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[4]
+tx_in[5] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[5]
+tx_in[6] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[6]
+tx_in[7] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[7]
+tx_in[8] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[8]
+tx_in[9] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[9]
+tx_in[10] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[10]
+tx_in[11] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[11]
+tx_in[12] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[12]
+tx_in[13] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[13]
+tx_in[14] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[14]
+tx_in[15] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[15]
+tx_in[16] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[16]
+tx_in[17] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[17]
+tx_in[18] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[18]
+tx_in[19] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[19]
+tx_in[20] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[20]
+tx_in[21] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[21]
+tx_in[22] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[22]
+tx_in[23] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[23]
+tx_in[24] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[24]
+tx_in[25] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[25]
+tx_in[26] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[26]
+tx_in[27] => lcd_serdes_tx_lvds_tx:auto_generated.tx_in[27]
+tx_inclock => lcd_serdes_tx_lvds_tx:auto_generated.tx_inclock
+tx_syncclock => ~NO_FANOUT~
+tx_enable => ~NO_FANOUT~
+sync_inclock => ~NO_FANOUT~
+tx_pll_enable => ~NO_FANOUT~
+pll_areset => ~NO_FANOUT~
+tx_data_reset => ~NO_FANOUT~
+tx_out[0] <= lcd_serdes_tx_lvds_tx:auto_generated.tx_out[0]
+tx_out[1] <= lcd_serdes_tx_lvds_tx:auto_generated.tx_out[1]
+tx_out[2] <= lcd_serdes_tx_lvds_tx:auto_generated.tx_out[2]
+tx_out[3] <= lcd_serdes_tx_lvds_tx:auto_generated.tx_out[3]
+tx_outclock <= lcd_serdes_tx_lvds_tx:auto_generated.tx_outclock
+tx_coreclock <= <GND>
+tx_locked <= lcd_serdes_tx_lvds_tx:auto_generated.tx_locked
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated
+tx_in[0] => l_sync_a[0].DATAIN
+tx_in[0] => h_sync_a[0].DATAIN
+tx_in[1] => l_sync_a[1].DATAIN
+tx_in[1] => h_sync_a[1].DATAIN
+tx_in[2] => l_sync_a[2].DATAIN
+tx_in[2] => h_sync_a[2].DATAIN
+tx_in[3] => l_sync_a[3].DATAIN
+tx_in[3] => h_sync_a[3].DATAIN
+tx_in[4] => l_sync_a[4].DATAIN
+tx_in[4] => h_sync_a[4].DATAIN
+tx_in[5] => l_sync_a[5].DATAIN
+tx_in[5] => h_sync_a[5].DATAIN
+tx_in[6] => l_sync_a[6].DATAIN
+tx_in[6] => h_sync_a[6].DATAIN
+tx_in[7] => l_sync_a[7].DATAIN
+tx_in[7] => h_sync_a[7].DATAIN
+tx_in[8] => l_sync_a[8].DATAIN
+tx_in[8] => h_sync_a[8].DATAIN
+tx_in[9] => l_sync_a[9].DATAIN
+tx_in[9] => h_sync_a[9].DATAIN
+tx_in[10] => l_sync_a[10].DATAIN
+tx_in[10] => h_sync_a[10].DATAIN
+tx_in[11] => l_sync_a[11].DATAIN
+tx_in[11] => h_sync_a[11].DATAIN
+tx_in[12] => l_sync_a[12].DATAIN
+tx_in[12] => h_sync_a[12].DATAIN
+tx_in[13] => l_sync_a[13].DATAIN
+tx_in[13] => h_sync_a[13].DATAIN
+tx_in[14] => l_sync_a[14].DATAIN
+tx_in[14] => h_sync_a[14].DATAIN
+tx_in[15] => l_sync_a[15].DATAIN
+tx_in[15] => h_sync_a[15].DATAIN
+tx_in[16] => l_sync_a[16].DATAIN
+tx_in[16] => h_sync_a[16].DATAIN
+tx_in[17] => l_sync_a[17].DATAIN
+tx_in[17] => h_sync_a[17].DATAIN
+tx_in[18] => l_sync_a[18].DATAIN
+tx_in[18] => h_sync_a[18].DATAIN
+tx_in[19] => l_sync_a[19].DATAIN
+tx_in[19] => h_sync_a[19].DATAIN
+tx_in[20] => l_sync_a[20].DATAIN
+tx_in[20] => h_sync_a[20].DATAIN
+tx_in[21] => l_sync_a[21].DATAIN
+tx_in[21] => h_sync_a[21].DATAIN
+tx_in[22] => l_sync_a[22].DATAIN
+tx_in[22] => h_sync_a[22].DATAIN
+tx_in[23] => l_sync_a[23].DATAIN
+tx_in[23] => h_sync_a[23].DATAIN
+tx_in[24] => l_sync_a[24].DATAIN
+tx_in[24] => h_sync_a[24].DATAIN
+tx_in[25] => l_sync_a[25].DATAIN
+tx_in[25] => h_sync_a[25].DATAIN
+tx_in[26] => l_sync_a[26].DATAIN
+tx_in[26] => h_sync_a[26].DATAIN
+tx_in[27] => l_sync_a[27].DATAIN
+tx_in[27] => h_sync_a[27].DATAIN
+tx_inclock => lvds_tx_pll.CLK
+tx_locked <= lvds_tx_pll.LOCKED
+tx_out[0] <= lcd_serdes_tx_ddio_out:ddio_out.dataout
+tx_out[1] <= lcd_serdes_tx_ddio_out:ddio_out.dataout
+tx_out[2] <= lcd_serdes_tx_ddio_out:ddio_out.dataout
+tx_out[3] <= lcd_serdes_tx_ddio_out:ddio_out.dataout
+tx_outclock <= lcd_serdes_tx_ddio_out1:outclock_ddio.dataout
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_ddio_out:ddio_out
+datain_h[0] => ddio_outa_0.DATAINHI
+datain_h[1] => ddio_outa_1.DATAINHI
+datain_h[2] => ddio_outa_2.DATAINHI
+datain_h[3] => ddio_outa_3.DATAINHI
+datain_l[0] => ddio_outa_0.DATAINLO
+datain_l[1] => ddio_outa_1.DATAINLO
+datain_l[2] => ddio_outa_2.DATAINLO
+datain_l[3] => ddio_outa_3.DATAINLO
+dataout[0] <= ddio_outa_0.DATAOUT
+dataout[1] <= ddio_outa_1.DATAOUT
+dataout[2] <= ddio_outa_2.DATAOUT
+dataout[3] <= ddio_outa_3.DATAOUT
+outclock => ddio_outa_0.CLKHI
+outclock => ddio_outa_0.CLKLO
+outclock => ddio_outa_0.MUXSEL
+outclock => ddio_outa_1.CLKHI
+outclock => ddio_outa_1.CLKLO
+outclock => ddio_outa_1.MUXSEL
+outclock => ddio_outa_2.CLKHI
+outclock => ddio_outa_2.CLKLO
+outclock => ddio_outa_2.MUXSEL
+outclock => ddio_outa_3.CLKHI
+outclock => ddio_outa_3.CLKLO
+outclock => ddio_outa_3.MUXSEL
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_ddio_out1:outclock_ddio
+datain_h[0] => ddio_outa_0.DATAINHI
+datain_l[0] => ddio_outa_0.DATAINLO
+dataout[0] <= ddio_outa_0.DATAOUT
+outclock => ddio_outa_0.CLKHI
+outclock => ddio_outa_0.CLKLO
+outclock => ddio_outa_0.MUXSEL
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_cmpr:cmpr10
+aeb <= aneb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire.IN0
+dataa[1] => data_wire.IN0
+dataa[2] => data_wire[1].IN0
+datab[0] => data_wire.IN1
+datab[1] => data_wire.IN1
+datab[2] => data_wire[1].IN1
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_cmpr:cmpr20
+aeb <= aneb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire.IN0
+dataa[1] => data_wire.IN0
+dataa[2] => data_wire[1].IN0
+datab[0] => data_wire.IN1
+datab[1] => data_wire.IN1
+datab[2] => data_wire[1].IN1
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_cmpr:cmpr21
+aeb <= aneb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire.IN0
+dataa[1] => data_wire.IN0
+dataa[2] => data_wire[1].IN0
+datab[0] => data_wire.IN1
+datab[1] => data_wire.IN1
+datab[2] => data_wire[1].IN1
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_cmpr:cmpr9
+aeb <= aneb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire.IN0
+dataa[1] => data_wire.IN0
+dataa[2] => data_wire[1].IN0
+datab[0] => data_wire.IN1
+datab[1] => data_wire.IN1
+datab[2] => data_wire[1].IN1
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_cntr:cntr13
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+updown => cout_actual.IN1
+updown => counter_comb_bita_0.DATAB
+updown => counter_comb_bita_1.DATAB
+updown => counter_comb_bita_2.DATAB
+updown => wire_counter_reg_bit_asdata.IN0
+updown => wire_counter_reg_bit_asdata.IN0
+updown => wire_counter_reg_bit_asdata.IN0
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_cntr:cntr13|lcd_serdes_tx_cmpr1:cmpr31
+aeb <= aneb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire.IN0
+dataa[1] => data_wire.IN0
+dataa[2] => data_wire[1].IN0
+datab[0] => data_wire.IN1
+datab[1] => data_wire.IN1
+datab[2] => data_wire[1].IN1
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_cntr:cntr2
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+updown => cout_actual.IN1
+updown => counter_comb_bita_0.DATAB
+updown => counter_comb_bita_1.DATAB
+updown => counter_comb_bita_2.DATAB
+updown => wire_counter_reg_bit_asdata.IN0
+updown => wire_counter_reg_bit_asdata.IN0
+updown => wire_counter_reg_bit_asdata.IN0
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_cntr:cntr2|lcd_serdes_tx_cmpr1:cmpr31
+aeb <= aneb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire.IN0
+dataa[1] => data_wire.IN0
+dataa[2] => data_wire[1].IN0
+datab[0] => data_wire.IN1
+datab[1] => data_wire.IN1
+datab[2] => data_wire[1].IN1
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_shift_reg:outclk_shift_h
+clock => shift_reg[0].CLK
+clock => shift_reg[1].CLK
+clock => shift_reg[2].CLK
+clock => shift_reg[3].CLK
+clock => shift_reg[4].CLK
+clock => shift_reg[5].CLK
+clock => shift_reg[6].CLK
+data[0] => shift_reg.DATAB
+data[1] => shift_reg.DATAB
+data[2] => shift_reg.DATAB
+data[3] => shift_reg.DATAB
+data[4] => shift_reg.DATAB
+data[5] => shift_reg.DATAB
+data[6] => shift_reg.DATAB
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+shiftin => shift_reg.DATAA
+shiftout <= shift_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_shift_reg:outclk_shift_l
+clock => shift_reg[0].CLK
+clock => shift_reg[1].CLK
+clock => shift_reg[2].CLK
+clock => shift_reg[3].CLK
+clock => shift_reg[4].CLK
+clock => shift_reg[5].CLK
+clock => shift_reg[6].CLK
+data[0] => shift_reg.DATAB
+data[1] => shift_reg.DATAB
+data[2] => shift_reg.DATAB
+data[3] => shift_reg.DATAB
+data[4] => shift_reg.DATAB
+data[5] => shift_reg.DATAB
+data[6] => shift_reg.DATAB
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+shiftin => shift_reg.DATAA
+shiftout <= shift_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_shift_reg:shift_reg23
+clock => shift_reg[0].CLK
+clock => shift_reg[1].CLK
+clock => shift_reg[2].CLK
+clock => shift_reg[3].CLK
+clock => shift_reg[4].CLK
+clock => shift_reg[5].CLK
+clock => shift_reg[6].CLK
+data[0] => shift_reg.DATAB
+data[1] => shift_reg.DATAB
+data[2] => shift_reg.DATAB
+data[3] => shift_reg.DATAB
+data[4] => shift_reg.DATAB
+data[5] => shift_reg.DATAB
+data[6] => shift_reg.DATAB
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+shiftin => shift_reg.DATAA
+shiftout <= shift_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_shift_reg:shift_reg24
+clock => shift_reg[0].CLK
+clock => shift_reg[1].CLK
+clock => shift_reg[2].CLK
+clock => shift_reg[3].CLK
+clock => shift_reg[4].CLK
+clock => shift_reg[5].CLK
+clock => shift_reg[6].CLK
+data[0] => shift_reg.DATAB
+data[1] => shift_reg.DATAB
+data[2] => shift_reg.DATAB
+data[3] => shift_reg.DATAB
+data[4] => shift_reg.DATAB
+data[5] => shift_reg.DATAB
+data[6] => shift_reg.DATAB
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+shiftin => shift_reg.DATAA
+shiftout <= shift_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_shift_reg:shift_reg25
+clock => shift_reg[0].CLK
+clock => shift_reg[1].CLK
+clock => shift_reg[2].CLK
+clock => shift_reg[3].CLK
+clock => shift_reg[4].CLK
+clock => shift_reg[5].CLK
+clock => shift_reg[6].CLK
+data[0] => shift_reg.DATAB
+data[1] => shift_reg.DATAB
+data[2] => shift_reg.DATAB
+data[3] => shift_reg.DATAB
+data[4] => shift_reg.DATAB
+data[5] => shift_reg.DATAB
+data[6] => shift_reg.DATAB
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+shiftin => shift_reg.DATAA
+shiftout <= shift_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_shift_reg:shift_reg26
+clock => shift_reg[0].CLK
+clock => shift_reg[1].CLK
+clock => shift_reg[2].CLK
+clock => shift_reg[3].CLK
+clock => shift_reg[4].CLK
+clock => shift_reg[5].CLK
+clock => shift_reg[6].CLK
+data[0] => shift_reg.DATAB
+data[1] => shift_reg.DATAB
+data[2] => shift_reg.DATAB
+data[3] => shift_reg.DATAB
+data[4] => shift_reg.DATAB
+data[5] => shift_reg.DATAB
+data[6] => shift_reg.DATAB
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+shiftin => shift_reg.DATAA
+shiftout <= shift_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_shift_reg:shift_reg27
+clock => shift_reg[0].CLK
+clock => shift_reg[1].CLK
+clock => shift_reg[2].CLK
+clock => shift_reg[3].CLK
+clock => shift_reg[4].CLK
+clock => shift_reg[5].CLK
+clock => shift_reg[6].CLK
+data[0] => shift_reg.DATAB
+data[1] => shift_reg.DATAB
+data[2] => shift_reg.DATAB
+data[3] => shift_reg.DATAB
+data[4] => shift_reg.DATAB
+data[5] => shift_reg.DATAB
+data[6] => shift_reg.DATAB
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+shiftin => shift_reg.DATAA
+shiftout <= shift_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_shift_reg:shift_reg28
+clock => shift_reg[0].CLK
+clock => shift_reg[1].CLK
+clock => shift_reg[2].CLK
+clock => shift_reg[3].CLK
+clock => shift_reg[4].CLK
+clock => shift_reg[5].CLK
+clock => shift_reg[6].CLK
+data[0] => shift_reg.DATAB
+data[1] => shift_reg.DATAB
+data[2] => shift_reg.DATAB
+data[3] => shift_reg.DATAB
+data[4] => shift_reg.DATAB
+data[5] => shift_reg.DATAB
+data[6] => shift_reg.DATAB
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+shiftin => shift_reg.DATAA
+shiftout <= shift_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_shift_reg:shift_reg29
+clock => shift_reg[0].CLK
+clock => shift_reg[1].CLK
+clock => shift_reg[2].CLK
+clock => shift_reg[3].CLK
+clock => shift_reg[4].CLK
+clock => shift_reg[5].CLK
+clock => shift_reg[6].CLK
+data[0] => shift_reg.DATAB
+data[1] => shift_reg.DATAB
+data[2] => shift_reg.DATAB
+data[3] => shift_reg.DATAB
+data[4] => shift_reg.DATAB
+data[5] => shift_reg.DATAB
+data[6] => shift_reg.DATAB
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+shiftin => shift_reg.DATAA
+shiftout <= shift_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cy_lvdslcd|lcd_serdes_tx:tx_auo|altlvds_tx:ALTLVDS_TX_component|lcd_serdes_tx_lvds_tx:auto_generated|lcd_serdes_tx_shift_reg:shift_reg30
+clock => shift_reg[0].CLK
+clock => shift_reg[1].CLK
+clock => shift_reg[2].CLK
+clock => shift_reg[3].CLK
+clock => shift_reg[4].CLK
+clock => shift_reg[5].CLK
+clock => shift_reg[6].CLK
+data[0] => shift_reg.DATAB
+data[1] => shift_reg.DATAB
+data[2] => shift_reg.DATAB
+data[3] => shift_reg.DATAB
+data[4] => shift_reg.DATAB
+data[5] => shift_reg.DATAB
+data[6] => shift_reg.DATAB
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+load => shift_reg.OUTPUTSELECT
+shiftin => shift_reg.DATAA
+shiftout <= shift_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cy_lvdslcd|ltdc_de:ltdcrgb
+clk => rgbdata_frame[0].CLK
+clk => rgbdata_frame[1].CLK
+clk => rgbdata_frame[2].CLK
+clk => rgbdata_frame[3].CLK
+clk => rgbdata_frame[4].CLK
+clk => rgbdata_frame[5].CLK
+clk => rgbdata_frame[6].CLK
+clk => rgbdata_frame[7].CLK
+clk => rgbdata_frame[8].CLK
+clk => rgbdata_frame[9].CLK
+clk => rgbdata_frame[10].CLK
+clk => rgbdata_frame[11].CLK
+clk => rgbdata_frame[12].CLK
+clk => rgbdata_frame[13].CLK
+clk => rgbdata_frame[14].CLK
+clk => rgbdata_frame[15].CLK
+clk => rgbdata_frame[16].CLK
+clk => rgbdata_frame[17].CLK
+clk => rgbdata_frame[18].CLK
+clk => rgbdata_frame[19].CLK
+clk => rgbdata_frame[20].CLK
+clk => rgbdata_frame[21].CLK
+clk => rgbdata_frame[22].CLK
+clk => rgbdata_frame[23].CLK
+clk => rgbdata_out[0]~reg0.CLK
+clk => rgbdata_out[1]~reg0.CLK
+clk => rgbdata_out[2]~reg0.CLK
+clk => rgbdata_out[3]~reg0.CLK
+clk => rgbdata_out[4]~reg0.CLK
+clk => rgbdata_out[5]~reg0.CLK
+clk => rgbdata_out[6]~reg0.CLK
+clk => rgbdata_out[7]~reg0.CLK
+clk => rgbdata_out[8]~reg0.CLK
+clk => rgbdata_out[9]~reg0.CLK
+clk => rgbdata_out[10]~reg0.CLK
+clk => rgbdata_out[11]~reg0.CLK
+clk => rgbdata_out[12]~reg0.CLK
+clk => rgbdata_out[13]~reg0.CLK
+clk => rgbdata_out[14]~reg0.CLK
+clk => rgbdata_out[15]~reg0.CLK
+clk => rgbdata_out[16]~reg0.CLK
+clk => rgbdata_out[17]~reg0.CLK
+clk => rgbdata_out[18]~reg0.CLK
+clk => rgbdata_out[19]~reg0.CLK
+clk => rgbdata_out[20]~reg0.CLK
+clk => rgbdata_out[21]~reg0.CLK
+clk => rgbdata_out[22]~reg0.CLK
+clk => rgbdata_out[23]~reg0.CLK
+clk => rgbdata[0].CLK
+clk => rgbdata[1].CLK
+clk => rgbdata[2].CLK
+clk => rgbdata[3].CLK
+clk => rgbdata[4].CLK
+clk => rgbdata[5].CLK
+clk => rgbdata[6].CLK
+clk => rgbdata[7].CLK
+clk => rgbdata[8].CLK
+clk => rgbdata[9].CLK
+clk => rgbdata[10].CLK
+clk => rgbdata[11].CLK
+clk => rgbdata[12].CLK
+clk => rgbdata[13].CLK
+clk => rgbdata[14].CLK
+clk => rgbdata[15].CLK
+clk => rgbdata[16].CLK
+clk => rgbdata[17].CLK
+clk => rgbdata[18].CLK
+clk => rgbdata[19].CLK
+clk => rgbdata[20].CLK
+clk => rgbdata[21].CLK
+clk => rgbdata[22].CLK
+clk => rgbdata[23].CLK
+clk => v[0].CLK
+clk => v[1].CLK
+clk => v[2].CLK
+clk => v[3].CLK
+clk => v[4].CLK
+clk => v[5].CLK
+clk => v[6].CLK
+clk => v[7].CLK
+clk => v[8].CLK
+clk => v[9].CLK
+clk => v[10].CLK
+clk => v[11].CLK
+clk => v[12].CLK
+clk => v[13].CLK
+clk => v[14].CLK
+clk => v[15].CLK
+clk => h[0].CLK
+clk => h[1].CLK
+clk => h[2].CLK
+clk => h[3].CLK
+clk => h[4].CLK
+clk => h[5].CLK
+clk => h[6].CLK
+clk => h[7].CLK
+clk => h[8].CLK
+clk => h[9].CLK
+clk => h[10].CLK
+clk => h[11].CLK
+clk => h[12].CLK
+clk => h[13].CLK
+clk => h[14].CLK
+clk => h[15].CLK
+clk => colorstate_frame~7.DATAIN
+clk => colorstate_line~7.DATAIN
+rgbdata_out[0] <= rgbdata_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[1] <= rgbdata_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[2] <= rgbdata_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[3] <= rgbdata_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[4] <= rgbdata_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[5] <= rgbdata_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[6] <= rgbdata_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[7] <= rgbdata_out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[8] <= rgbdata_out[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[9] <= rgbdata_out[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[10] <= rgbdata_out[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[11] <= rgbdata_out[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[12] <= rgbdata_out[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[13] <= rgbdata_out[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[14] <= rgbdata_out[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[15] <= rgbdata_out[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[16] <= rgbdata_out[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[17] <= rgbdata_out[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[18] <= rgbdata_out[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[19] <= rgbdata_out[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[20] <= rgbdata_out[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[21] <= rgbdata_out[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[22] <= rgbdata_out[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rgbdata_out[23] <= rgbdata_out[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+de <= de.DB_MAX_OUTPUT_PORT_TYPE
+
+

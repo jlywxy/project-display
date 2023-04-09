@@ -1,0 +1,3 @@
+Warning (10268): Verilog HDL information at ltdc.v(66): always construct contains both blocking and non-blocking assignments File: /home/jlywxy/project/ltdc/ltdc.v Line: 66
+Info (10281): Verilog HDL Declaration information at ltdc.v(7): object "hsync" differs only in case from object "HSYNC" in the same scope File: /home/jlywxy/project/ltdc/ltdc.v Line: 7
+Info (10281): Verilog HDL Declaration information at ltdc.v(9): object "vsync" differs only in case from object "VSYNC" in the same scope File: /home/jlywxy/project/ltdc/ltdc.v Line: 9

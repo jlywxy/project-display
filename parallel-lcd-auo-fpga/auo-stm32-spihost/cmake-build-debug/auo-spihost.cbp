@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="auo-spihost"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="auo-spihost.elf">
+				<Option output="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/auo-spihost.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F030x6"/>
+					<Add directory="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Core/Inc"/>
+					<Add directory="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Device/ST/STM32F0xx/Include"/>
+					<Add directory="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 auo-spihost.elf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="auo-spihost.elf/fast">
+				<Option output="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/auo-spihost.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F030x6"/>
+					<Add directory="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Core/Inc"/>
+					<Add directory="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Device/ST/STM32F0xx/Include"/>
+					<Add directory="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 auo-spihost.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Core/Inc/gpio.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Core/Inc/main.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Core/Inc/spi.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Core/Inc/stm32f0xx_hal_conf.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Core/Inc/stm32f0xx_it.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Core/Src/gpio.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Core/Src/main.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Core/Src/spi.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Core/Src/stm32f0xx_hal_msp.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Core/Src/stm32f0xx_it.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Core/Src/syscalls.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Core/Src/sysmem.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Core/Src/system_stm32f0xx.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Core/Startup/startup_stm32f030k6tx.s">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x6.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_exti.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi_ex.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/STM32F030K6TX_FLASH.ld">
+			<Option target="auo-spihost.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lcd/projects/parallel-lcd-auo-fpga/auo-spihost/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

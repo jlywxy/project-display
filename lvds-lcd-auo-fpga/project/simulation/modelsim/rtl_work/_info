@@ -1,0 +1,321 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jlywxy/project/cy_lvdslcd/simulation/modelsim
+T_opt
+Z1 !s110 1659760171
+V<j<gnCfmRKRJi;Z[<lOG^2
+04 18 4 work cy_lvdslcd_vlg_tst fast 0
+=1-000ae431a4f1-62edee2b-892f6-1668
+!s124 OEM10U5 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vcy_lvdslcd
+R1
+!i10b 1
+!s100 6L[9HIH5A_mW]kK1BQ3nI0
+ITl<AB_7i2`E893Y?YFg_e1
+R0
+Z3 w1659759681
+Z4 8/home/jlywxy/project/cy_lvdslcd/cy_lvdslcd.v
+Z5 F/home/jlywxy/project/cy_lvdslcd/cy_lvdslcd.v
+!i122 0
+L0 1 50
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z8 !s108 1659760170.000000
+Z9 !s107 /home/jlywxy/project/cy_lvdslcd/cy_lvdslcd.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jlywxy/project/cy_lvdslcd|/home/jlywxy/project/cy_lvdslcd/cy_lvdslcd.v|
+!i113 0
+Z11 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -vlog01compat -work work +incdir+/home/jlywxy/project/cy_lvdslcd -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vcy_lvdslcd_vlg_tst
+R1
+!i10b 1
+!s100 >DDz[dJTz0ZIO>]Gn_[Fl1
+IQI5;R9?KY[Wc^f5dkJ>Z51
+R0
+w1659695580
+8/home/jlywxy/project/cy_lvdslcd/simulation/modelsim/cy_lvdslcd.vt
+F/home/jlywxy/project/cy_lvdslcd/simulation/modelsim/cy_lvdslcd.vt
+!i122 5
+L0 29 40
+R6
+R7
+r1
+!s85 0
+31
+Z13 !s108 1659760171.000000
+!s107 /home/jlywxy/project/cy_lvdslcd/simulation/modelsim/cy_lvdslcd.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jlywxy/project/cy_lvdslcd/simulation/modelsim|/home/jlywxy/project/cy_lvdslcd/simulation/modelsim/cy_lvdslcd.vt|
+!i113 0
+R11
+!s92 -vlog01compat -work work +incdir+/home/jlywxy/project/cy_lvdslcd/simulation/modelsim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vlcd_serdes_tx
+R1
+!i10b 1
+!s100 cTRfh]E^ne]2jzghE7]X;2
+IJ]b:D]RD>UDa3Oe;Im_eA2
+R0
+w1659760100
+8/home/jlywxy/project/cy_lvdslcd/lcd_serdes_tx.v
+F/home/jlywxy/project/cy_lvdslcd/lcd_serdes_tx.v
+!i122 1
+L0 40 70
+R6
+R7
+r1
+!s85 0
+31
+R13
+!s107 /home/jlywxy/project/cy_lvdslcd/lcd_serdes_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jlywxy/project/cy_lvdslcd|/home/jlywxy/project/cy_lvdslcd/lcd_serdes_tx.v|
+!i113 0
+R11
+R12
+R2
+vlcd_serdes_tx_cmpr
+R1
+!i10b 1
+!s100 Y:5RiXTTZXUa>NE0e?ol01
+I0ibc=BfBdf@bCS@UTbHFP3
+R0
+Z14 w1659759985
+Z15 8/home/jlywxy/project/cy_lvdslcd/db/lcd_serdes_tx_lvds_tx.v
+Z16 F/home/jlywxy/project/cy_lvdslcd/db/lcd_serdes_tx_lvds_tx.v
+!i122 4
+L0 256 29
+R6
+R7
+r1
+!s85 0
+31
+R13
+Z17 !s107 /home/jlywxy/project/cy_lvdslcd/db/lcd_serdes_tx_lvds_tx.v|
+Z18 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jlywxy/project/cy_lvdslcd/db|/home/jlywxy/project/cy_lvdslcd/db/lcd_serdes_tx_lvds_tx.v|
+!i113 0
+R11
+Z19 !s92 -vlog01compat -work work +incdir+/home/jlywxy/project/cy_lvdslcd/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vlcd_serdes_tx_cmpr1
+R1
+!i10b 1
+!s100 R7VKX5jLE0Wob:[N^LX113
+I1RJM]^_9GK7CI1@fgQa:20
+R0
+R14
+R15
+R16
+!i122 4
+L0 298 29
+R6
+R7
+r1
+!s85 0
+31
+R13
+R17
+R18
+!i113 0
+R11
+R19
+R2
+vlcd_serdes_tx_cntr
+R1
+!i10b 1
+!s100 Tbg=QM?[MIFnL4lKnoC9D1
+IXDS0h`hm9nACoW[M`GdF>3
+R0
+R14
+R15
+R16
+!i122 4
+L0 332 144
+R6
+R7
+r1
+!s85 0
+31
+R13
+R17
+R18
+!i113 0
+R11
+R19
+R2
+vlcd_serdes_tx_ddio_out
+R1
+!i10b 1
+!s100 YSzV2Z:fdOO0L=7YTdP3>0
+IF];FK=VGc4HmoLdoSnh<m2
+R0
+R14
+R15
+R16
+!i122 4
+L0 35 153
+R6
+R7
+r1
+!s85 0
+31
+R13
+R17
+R18
+!i113 0
+R11
+R19
+R2
+vlcd_serdes_tx_ddio_out1
+R1
+!i10b 1
+!s100 hoz<88[>I9N7akLzVmc]C0
+INBfMfWcTf^cRdAVI`E2NN1
+R0
+R14
+R15
+R16
+!i122 4
+L0 198 49
+R6
+R7
+r1
+!s85 0
+31
+R13
+R17
+R18
+!i113 0
+R11
+R19
+R2
+vlcd_serdes_tx_lvds_tx
+R1
+!i10b 1
+!s100 3MaZDe:>g8k6GOU3<g6@Z0
+I8Be9:70A6RoJC]]]`k[==2
+R0
+R14
+R15
+R16
+!i122 4
+L0 528 354
+R6
+R7
+r1
+!s85 0
+31
+R13
+R17
+R18
+!i113 0
+R11
+R19
+R2
+vlcd_serdes_tx_shift_reg
+R1
+!i10b 1
+!s100 <nYUN86`ff7IGPfVzAkR;2
+Ih1=6Bl=6kVf[SYbeh:aJQ1
+R0
+R14
+R15
+R16
+!i122 4
+L0 485 37
+R6
+R7
+r1
+!s85 0
+31
+R13
+R17
+R18
+!i113 0
+R11
+R19
+R2
+vlcdpll
+R1
+!i10b 1
+!s100 55@:m59Dj7kkkcoi0gE>C1
+InUSQ<zODOkZjS2`l2bY@b3
+R0
+w1659759467
+8/home/jlywxy/project/cy_lvdslcd/lcdpll.v
+F/home/jlywxy/project/cy_lvdslcd/lcdpll.v
+!i122 2
+L0 40 124
+R6
+R7
+r1
+!s85 0
+31
+R13
+!s107 /home/jlywxy/project/cy_lvdslcd/lcdpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jlywxy/project/cy_lvdslcd|/home/jlywxy/project/cy_lvdslcd/lcdpll.v|
+!i113 0
+R11
+R12
+R2
+vlcdpll_altpll
+R1
+!i10b 1
+!s100 ]C3H:;Sl`:B4dlImDYK@Q1
+IS;g8Bcn[2]4RoXmk1b2312
+R0
+w1659759590
+8/home/jlywxy/project/cy_lvdslcd/db/lcdpll_altpll.v
+F/home/jlywxy/project/cy_lvdslcd/db/lcdpll_altpll.v
+!i122 3
+L0 31 79
+R6
+R7
+r1
+!s85 0
+31
+R13
+!s107 /home/jlywxy/project/cy_lvdslcd/db/lcdpll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jlywxy/project/cy_lvdslcd/db|/home/jlywxy/project/cy_lvdslcd/db/lcdpll_altpll.v|
+!i113 0
+R11
+R19
+R2
+vltdc_de
+R1
+!i10b 1
+!s100 U8ZLIRk<LS]H>]^^D@6O90
+IMhUU?<dTKSm[[X;7STDCO2
+R0
+R3
+R4
+R5
+!i122 0
+L0 52 46
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R2

@@ -1,0 +1,3 @@
+/Users/jlywxy/project/lcd/projects/mipi-lcd-sharp-ssd2828/ssd_stm_spihost/spihost/cmake-build-debug/CMakeFiles/spihost.elf.dir
+/Users/jlywxy/project/lcd/projects/mipi-lcd-sharp-ssd2828/ssd_stm_spihost/spihost/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jlywxy/project/lcd/projects/mipi-lcd-sharp-ssd2828/ssd_stm_spihost/spihost/cmake-build-debug/CMakeFiles/rebuild_cache.dir

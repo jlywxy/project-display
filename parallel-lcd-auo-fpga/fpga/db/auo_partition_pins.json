@@ -1,0 +1,57 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "rgb8[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rgb8[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rgb8[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rgb8[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rgb8[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rgb8[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rgb8[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rgb8[7]",
+					"strict" : false
+				},
+				{
+					"name" : "hsync",
+					"strict" : false
+				},
+				{
+					"name" : "vsync",
+					"strict" : false
+				},
+				{
+					"name" : "pclk",
+					"strict" : false
+				},
+				{
+					"name" : "clk_in",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

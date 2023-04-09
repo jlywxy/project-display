@@ -1,0 +1,72 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2021  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 0 0 224 112)
+	(text "lcd_serdes_tx" (rect 69 0 172 17)(font "Dialog" (font_size 10)))
+	(text "inst" (rect 8 95 24 108)(font "Arial" ))
+	(port
+		(pt 0 48)
+		(input)
+		(text "tx_in[27..0]" (rect 0 0 74 14)(font "Dialog" (font_size 8)))
+		(text "tx_in[27..0]" (rect 4 34 67 47)(font "Dialog" (font_size 8)))
+		(line (pt 0 48)(pt 80 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "tx_inclock" (rect 0 0 66 14)(font "Dialog" (font_size 8)))
+		(text "tx_inclock" (rect 4 50 59 63)(font "Dialog" (font_size 8)))
+		(line (pt 0 64)(pt 80 64))
+	)
+	(port
+		(pt 224 48)
+		(output)
+		(text "tx_out[3..0]" (rect 0 0 75 14)(font "Dialog" (font_size 8)))
+		(text "tx_out[3..0]" (rect 157 34 221 47)(font "Dialog" (font_size 8)))
+		(line (pt 224 48)(pt 144 48)(line_width 3))
+	)
+	(port
+		(pt 224 64)
+		(output)
+		(text "tx_outclock" (rect 0 0 75 14)(font "Dialog" (font_size 8)))
+		(text "tx_outclock" (rect 159 50 222 63)(font "Dialog" (font_size 8)))
+		(line (pt 224 64)(pt 144 64))
+	)
+	(port
+		(pt 224 80)
+		(output)
+		(text "tx_locked" (rect 0 0 61 14)(font "Dialog" (font_size 8)))
+		(text "tx_locked" (rect 169 66 220 79)(font "Dialog" (font_size 8)))
+		(line (pt 224 80)(pt 144 80))
+	)
+	(drawing
+		(line (pt 80 32)(pt 144 32))
+		(line (pt 144 32)(pt 144 96))
+		(line (pt 80 96)(pt 144 96))
+		(line (pt 80 32)(pt 80 96))
+		(line (pt 0 0)(pt 224 0))
+		(line (pt 224 0)(pt 224 112))
+		(line (pt 0 112)(pt 224 112))
+		(line (pt 0 0)(pt 0 112))
+	)
+)

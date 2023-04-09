@@ -1,0 +1,11 @@
+Fitter Status : Successful - Thu Jul 14 08:22:08 2022
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : ltdc
+Top-level Entity Name : ltdc
+Family : MAX II
+Device : EPM240T100C5
+Timing Models : Final
+Total logic elements : 107 / 240 ( 45 % )
+Total pins : 30 / 80 ( 38 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lg-h7b0-ltdc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lg-h7b0-ltdc.elf">
+				<Option output="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/lg-h7b0-ltdc.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32H7B0xx"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Inc"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/LIBJPEG/Target"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/LIBJPEG/App"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Middlewares/Third_Party/LibJPEG/include"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Utilities/JPEG"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 lg-h7b0-ltdc.elf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lg-h7b0-ltdc.elf/fast">
+				<Option output="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/lg-h7b0-ltdc.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32H7B0xx"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Inc"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/LIBJPEG/Target"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/LIBJPEG/App"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Middlewares/Third_Party/LibJPEG/include"/>
+					<Add directory="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Utilities/JPEG"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 lg-h7b0-ltdc.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/.DS_Store">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Inc/.DS_Store">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Inc/gpio.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Inc/jpeg.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Inc/jpeg_utils_conf.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Inc/lgb-logo-rbgdata.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Inc/lgb-logo-rbgdata.h.old">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Inc/ltdc.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Inc/main.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Inc/spi.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Inc/stm32h7xx_hal_conf.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Inc/stm32h7xx_it.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Inc/tim.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Src/.DS_Store">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Src/gpio.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Src/jpeg.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Src/lgb-logo-rbgdata.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Src/ltdc.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Src/main.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Src/spi.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Src/stm32h7xx_hal_msp.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Src/stm32h7xx_it.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Src/syscalls.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Src/sysmem.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Src/system_stm32h7xx.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Src/tim.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Core/Startup/startup_stm32h7b0vbtx.s">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7b0xx.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/core_armv81mml.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/core_cm35p.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_jpeg.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ltdc.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ltdc_ex.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_jpeg.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/STM32H7B0VBTX_FLASH.ld">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Utilities/JPEG/jpeg_utils.c">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Utilities/JPEG/jpeg_utils.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/Utilities/JPEG/jpeg_utils_conf_template.h">
+			<Option target="lg-h7b0-ltdc.elf"/>
+		</Unit>
+		<Unit filename="/Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

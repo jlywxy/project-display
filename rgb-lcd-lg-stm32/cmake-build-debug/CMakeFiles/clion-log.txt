@@ -1,0 +1,5 @@
+"/Users/jlywxy/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/jlywxy/project/lg-ltdc/lg-h7b0-ltdc/cmake-build-debug

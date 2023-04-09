@@ -1,0 +1,45 @@
+Questa Intel Starter FPGA Edition-64 qrun 2021.2 Utility 2021.04 Apr 14 2021
+Start time: 09:01:14 on Jul 11,2022
+qrun 
+    The qrun utility simplifies the use of Questa tools to compile, optimize
+    and simulate a design by taking all input files and options, and then
+    automatically executing the correct tool and command-line arguments for
+    each file.
+    
+    The qrun command has these critical features
+    
+    * Simplifies the building of a mixed-language design by choosing the
+    appropriate tool and arguments to compile for each file.
+    
+    * Keeps track of timestamps to only re-compile files that have changed.
+    
+    * Maintains a history of previously executed commands. This allows you to
+    browse a list commands, and re-run a line without having to specify all the
+    previous arguments.
+    
+    * Provides a way to output a shell script for a build.
+    
+    The qrun command supports the following simulation languages.
+    SystemVerilog/Verilog
+    VHDL
+    SystemC, C/C++ (DPI/PLI/FLI) source, and compiled object files
+    
+    Try the following to get help on specific options or categories: 
+
+    qrun -help all            : List all categories and options
+    qrun -help category       : List all categories
+    qrun -help <option>       : Help on an option
+    qrun -help <command-line> : Help on all options in a command-line
+    qrun -help <category>     : List all options in a category
+
+    Category:       The list of categories in qrun tool.
+
+    General         List most common general options
+    Compiler        List options for compiler, and optimizer controls
+    Design          List options for design units, and libraries
+    File            List options for file and option specifications
+    Flow            List options for Flow (Coverage, PA, Debug, ...)
+    Messages        List all warn, error, note, fatal messages options
+    Script          List options for scripts, environment, history, and log
+    Subgroup        List options for handle grouping files and options
+    SystemC         List options supporting for SystemC

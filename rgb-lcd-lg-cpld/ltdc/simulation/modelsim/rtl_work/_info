@@ -1,0 +1,68 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jlywxy/project/ltdc/simulation/modelsim
+T_opt
+!s110 1657706062
+V>MR:5_kL?o?]9=48O0BUT3
+04 12 4 work ltdc_vlg_tst fast 0
+=1-000ae431a4f1-62ce964e-a50a-14de
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxii_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vltdc
+Z2 !s110 1657706061
+!i10b 1
+!s100 h2^?8g0>kNi>dzA]nKgWQ3
+IKa9NY79<L@dDnY@X2QV0L3
+R0
+w1657706040
+8/home/jlywxy/project/ltdc/ltdc.v
+F/home/jlywxy/project/ltdc/ltdc.v
+!i122 0
+L0 1 67
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z5 !s108 1657706061.000000
+!s107 /home/jlywxy/project/ltdc/ltdc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jlywxy/project/ltdc|/home/jlywxy/project/ltdc/ltdc.v|
+!i113 0
+Z6 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+/home/jlywxy/project/ltdc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vltdc_vlg_tst
+R2
+!i10b 1
+!s100 fQ7I[16SnWgf=XPLQ4dKT3
+I]TRz<:cT4D[;S<CzaU:bV2
+R0
+w1657706005
+8/home/jlywxy/project/ltdc/simulation/modelsim/ltdc.vt
+F/home/jlywxy/project/ltdc/simulation/modelsim/ltdc.vt
+!i122 1
+L0 29 50
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/jlywxy/project/ltdc/simulation/modelsim/ltdc.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/jlywxy/project/ltdc/simulation/modelsim|/home/jlywxy/project/ltdc/simulation/modelsim/ltdc.vt|
+!i113 0
+R6
+!s92 -vlog01compat -work work +incdir+/home/jlywxy/project/ltdc/simulation/modelsim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

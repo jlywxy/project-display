@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Aug  9 17:11:49 2022
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : cy_lvdslcd
+Top-level Entity Name : cy_lvdslcd
+Family : Cyclone IV E
+Total logic elements : 622
+    Total combinational functions : 470
+    Dedicated logic registers : 325
+Total registers : 335
+Total pins : 7
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 2

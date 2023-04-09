@@ -1,0 +1,18 @@
+
+State Machine - |cy_lvdslcd|ltdc_de:ltdcrgb|colorstate_frame
+Name colorstate_frame.0101 colorstate_frame.0100 colorstate_frame.0011 colorstate_frame.0010 colorstate_frame.0001 colorstate_frame.0000 
+colorstate_frame.0000 0 0 0 0 0 0 
+colorstate_frame.0001 0 0 0 0 1 1 
+colorstate_frame.0010 0 0 0 1 0 1 
+colorstate_frame.0011 0 0 1 0 0 1 
+colorstate_frame.0100 0 1 0 0 0 1 
+colorstate_frame.0101 1 0 0 0 0 1 
+
+State Machine - |cy_lvdslcd|ltdc_de:ltdcrgb|colorstate_line
+Name colorstate_line.0101 colorstate_line.0100 colorstate_line.0011 colorstate_line.0010 colorstate_line.0001 colorstate_line.0000 
+colorstate_line.0000 0 0 0 0 0 0 
+colorstate_line.0001 0 0 0 0 1 1 
+colorstate_line.0010 0 0 0 1 0 1 
+colorstate_line.0011 0 0 1 0 0 1 
+colorstate_line.0100 0 1 0 0 0 1 
+colorstate_line.0101 1 0 0 0 0 1 

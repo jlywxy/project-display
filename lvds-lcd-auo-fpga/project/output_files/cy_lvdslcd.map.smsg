@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at cy_lvdslcd.v(97): always construct contains both blocking and non-blocking assignments File: /home/jlywxy/project/cy_lvdslcd/cy_lvdslcd.v Line: 97

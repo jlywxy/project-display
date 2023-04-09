@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at auo.v(37): always construct contains both blocking and non-blocking assignments File: /home/jlywxy/project/auo/auo.v Line: 37

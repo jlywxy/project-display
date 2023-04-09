@@ -1,0 +1,197 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[0]'
+Slack : 1.855
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[1]'
+Slack : 4.429
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'lcdpll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 13.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[2]'
+Slack : 22.802
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[3]'
+Slack : 56.204
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lcdpll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[2]'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[3]'
+Slack : 0.465
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[1]'
+Slack : 0.501
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[1]'
+Slack : 3.796
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[0]'
+Slack : 3.798
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_in'
+Slack : 9.858
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lcdpll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 14.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[3]'
+Slack : 28.286
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[2]'
+Slack : 28.287
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[0]'
+Slack : 1.994
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[1]'
+Slack : 4.728
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'lcdpll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 14.193
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[2]'
+Slack : 23.063
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[3]'
+Slack : 56.301
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lcdpll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[2]'
+Slack : 0.415
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[3]'
+Slack : 0.416
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[0]'
+Slack : 0.469
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[1]'
+Slack : 0.471
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[0]'
+Slack : 3.795
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[1]'
+Slack : 3.796
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_in'
+Slack : 9.855
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lcdpll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 14.002
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[2]'
+Slack : 28.285
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[3]'
+Slack : 28.286
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[0]'
+Slack : 2.985
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[1]'
+Slack : 6.509
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'lcdpll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 21.761
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[2]'
+Slack : 24.741
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[3]'
+Slack : 56.734
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lcdpll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[0]'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[1]'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[2]'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[3]'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[0]'
+Slack : 3.879
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[1]'
+Slack : 3.879
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_in'
+Slack : 9.423
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lcdpll_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 14.082
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[2]'
+Slack : 28.327
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tx_auo|ALTLVDS_TX_component|auto_generated|lvds_tx_pll|clk[3]'
+Slack : 28.368
+TNS   : 0.000
+
+------------------------------------------------------------
